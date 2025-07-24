@@ -1,0 +1,9 @@
+.layer{
+    opacity: 0;
+    transition: 0.65s opacity;
+    background-color: var(--primary_color);
+}
+
+.img_box:hover .layer{
+    opacity: 1;
+}

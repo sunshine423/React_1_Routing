@@ -1,0 +1,29 @@
+.footer {
+  padding: 40px;
+  background-color: var(--secondary_color);
+}
+
+.icon {
+  margin: 5px;
+  display: flex;
+  padding: 10px;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.footer_copyright {
+  padding: 10px;
+  background-color: #1a252f;
+}
+
+.footer_copyright p {
+  padding-top: 10px;
+}

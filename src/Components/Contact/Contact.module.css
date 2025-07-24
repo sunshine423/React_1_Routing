@@ -1,0 +1,24 @@
+.formControl:focus {
+    box-shadow: 0 0 0 0;
+}
+
+
+input:focus +label,
+input:not(:placeholder-shown) + label {
+  top: -10px;
+  color: var(--primary_color);
+  transition: 0.75s all;
+}  
+
+
+.submit_btn{
+    background-color: var(--primary_color);
+    border-color: transparent;
+
+} 
+
+.submit_btn:hover {
+    border-color: transparent;
+    background-color: var(--primary_color);
+   
+}

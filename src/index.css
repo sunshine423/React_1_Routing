@@ -1,0 +1,17 @@
+:root {
+  --primary_color: #1abc9c;
+  --secondary_color: #2c3e50;
+  --navbar_height: 110px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.start_after_navbar{
+  padding-top: var(--navbar_height);
+}
+
+.full_screen{
+  min-height: calc(100vh - 70px);
+}

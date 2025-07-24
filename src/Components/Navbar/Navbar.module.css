@@ -1,0 +1,23 @@
+.nav_brand {
+  font-size: 2rem;
+}
+
+.nav_item {
+  padding:  8px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav {
+  background-color: var(--secondary_color);
+}
+
+li{
+    margin: 5px;
+}
+
+.active {
+  border-radius: 10px;
+  background-color: var(--primary_color);
+}
